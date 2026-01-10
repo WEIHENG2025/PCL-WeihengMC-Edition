@@ -366,7 +366,7 @@ Public Class PageInstanceInstall
             CardCleanroom.Visibility = Visibility.Collapsed
         End If
         'NeoForge
-        If _vanillaData Is Nothing OrElse _vanillaData("releaseTime").ToObject(Of Date) < New Date(2023, 6, 11) Then '匹配 1.20.1+ 与一些愚人节版本
+        If VanillaDrop < 200 Then '匹配 1.20.1+ 与一些愚人节版本
             CardNeoForge.Visibility = Visibility.Collapsed
         Else
             CardNeoForge.Visibility = Visibility.Visible
@@ -815,6 +815,7 @@ Public Class PageInstanceInstall
         ElseIf CurrentInstance.HasNeoForge Then
             SelectedLoaderName = "NeoForge"
             SelectedNeoForgeVersion = CurrentInstance.NeoForge
+            SelectedNeoForge = New DlNeoForgeListEntry(CurrentInstance.NeoForge) With {.VersionName = CurrentInstance.NeoForge, .Inherit = CurrentInstance.VanillaName, .ForgeType = DlForgelikeEntry.ForgelikeType.NeoForge}
         ElseIf CurrentInstance.HasQuilt Then
             SelectedLoaderName = "Quilt"
             SelectedQuilt = CurrentInstance.Quilt
