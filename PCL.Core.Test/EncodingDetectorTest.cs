@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.Utils.Codecs;
 
-namespace PCL.Test;
+namespace PCL.Core.Test;
 [TestClass]
 public class EncodingDetectorTest
 {

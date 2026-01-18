@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using static PCL.Core.UI.ToastNotification;
 
-namespace PCL.Test;
+namespace PCL.Core.Test;
 
 [TestClass]
 public class ToastTest

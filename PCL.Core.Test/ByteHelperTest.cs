@@ -4,7 +4,7 @@ using System.IO;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.IO;
 
-namespace PCL.Test;
+namespace PCL.Core.Test;
 
 [TestClass]
 public class ByteHelperTest

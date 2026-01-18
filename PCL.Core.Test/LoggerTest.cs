@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.Logging;
 
-namespace PCL.Test;
+namespace PCL.Core.Test;
 
 [TestClass]
 public class LoggerTest

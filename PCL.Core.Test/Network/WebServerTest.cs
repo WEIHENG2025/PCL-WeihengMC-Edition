@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.Net.Http.Client;
 using PCL.Core.Net.Http.Server;
 
-namespace PCL.Test.Network;
+namespace PCL.Core.Test.Network;
 
 [TestClass]
 public class WebServerTest

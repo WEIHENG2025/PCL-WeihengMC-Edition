@@ -2,10 +2,10 @@
 using System.Security.Cryptography;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace PCL.Test.Encryption;
+namespace PCL.Core.Test.Encryption;
 
 [TestClass]
-public class ChaCha20Poly1305
+public class ChaCha20
 {
     [TestMethod]
     public void TestChaCha20Simple()
@@ -16,8 +16,8 @@ public class ChaCha20Poly1305
         var randomKey = new byte[32];
         RandomNumberGenerator.Fill(randomKey);
 
-        var encryptedData = Core.Utils.Encryption.ChaCha20Poly1305Provider.Instance.Encrypt(randomData, randomKey);
-        var decryptedData = Core.Utils.Encryption.ChaCha20Poly1305Provider.Instance.Decrypt(encryptedData, randomKey);
+        var encryptedData = Core.Utils.Encryption.ChaCha20SoftwareProvider.Instance.Encrypt(randomData, randomKey);
+        var decryptedData = Core.Utils.Encryption.ChaCha20SoftwareProvider.Instance.Decrypt(encryptedData, randomKey);
 
         Assert.AreEqual(randomData.Length, decryptedData.Length);
         for (var i = 0; i < decryptedData.Length; i++)

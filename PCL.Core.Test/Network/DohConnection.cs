@@ -6,7 +6,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.Net;
 using PCL.Core.Net.Http.Client;
 
-namespace PCL.Test.Network;
+namespace PCL.Core.Test.Network;
 
 [TestClass]
 public class DohConnection

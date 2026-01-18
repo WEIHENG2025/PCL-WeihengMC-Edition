@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.UI.Effects;
 
-namespace PCL.Test;
+namespace PCL.Core.Test;
 
 [TestClass]
 public class BlurTest

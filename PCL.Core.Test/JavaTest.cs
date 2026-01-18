@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using PCL.Core.Minecraft;
 
-namespace PCL.Test
+namespace PCL.Core.Test
 {
     [TestClass]
     public class JavaTest

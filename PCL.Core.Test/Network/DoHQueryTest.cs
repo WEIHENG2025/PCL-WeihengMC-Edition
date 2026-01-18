@@ -9,7 +9,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.Net;
 using PCL.Core.Net.Dns;
 
-namespace PCL.Test.Network;
+namespace PCL.Core.Test.Network;
 
 [TestClass]
 public class DoHQueryTest

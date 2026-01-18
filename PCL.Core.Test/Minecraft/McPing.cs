@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using System.Net.Sockets;
 using PCL.Core.Link;
 
-namespace PCL.Test.Minecraft;
+namespace PCL.Core.Test.Minecraft;
 
 [TestClass]
 public class McPingTest

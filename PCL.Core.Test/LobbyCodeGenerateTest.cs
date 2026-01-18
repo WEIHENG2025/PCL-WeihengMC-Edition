@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.Link.Scaffolding;
 using System;
 
-namespace PCL.Test;
+namespace PCL.Core.Test;
 
 [TestClass]
 public class LobbyCodeGenerateTest

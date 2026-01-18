@@ -4,7 +4,7 @@ using System.Text.Json;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PCL.Core.Utils;
 
-namespace PCL.Test
+namespace PCL.Core.Test
 {
     [TestClass]
     public class DynamicJsonTest

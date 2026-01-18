@@ -3,7 +3,7 @@ using System.Net.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Threading.Tasks;
 
-namespace PCL.Test.Project;
+namespace PCL.Core.Test.Project;
 
 [TestClass]
 public class Modrinth

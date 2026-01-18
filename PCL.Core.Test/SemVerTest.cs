@@ -2,7 +2,7 @@
 using System;
 using PCL.Core.Utils;
 
-namespace PCL.Test
+namespace PCL.Core.Test
 {
     [TestClass]
     public class SemVerTest

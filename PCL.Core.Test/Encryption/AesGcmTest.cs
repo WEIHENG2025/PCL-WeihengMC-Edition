@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace PCL.Test.Encryption;
+namespace PCL.Core.Test.Encryption;
 
 [TestClass]
 public class AesGcmTest
