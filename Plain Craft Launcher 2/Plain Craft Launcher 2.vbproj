@@ -23,9 +23,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <ApplicationIcon>Images\icon.ico</ApplicationIcon>
-    <AssemblyTitle>Plain Craft Launcher Community Edition</AssemblyTitle>
-    <Description>Minecraft 启动器 (作者: 龙腾猫跃; 经社区二次开发版本)</Description>
-    <Product>Plain Craft Launcher Community Edition</Product>
+    <AssemblyTitle>PCL WeihengMC Edition</AssemblyTitle>
+    <Description>Minecraft 启动器 (作者: 龙腾猫跃; 经 WeihengMC 二次开发版本)</Description>
+    <Product>PCL WeihengMC Edition</Product>
     <Copyright>Copyright © 龙腾猫跃 2016. All Rights Reserved.</Copyright>
     <AssemblyVersion>2.14.3.0</AssemblyVersion>
     <FileVersion>2.14.3.0</FileVersion>

@@ -38,10 +38,27 @@
 
 ————————————
 
+## 四、本版本说明 (PCL WeihengMC Edition)
+
+本项目为 **第三方基于 PCL Community Edition 独立进行二次创作的产物**。
+
+### 原作者署名
+- **原作者**: 龙腾猫跃
+- **原作者项目**: [PCL](https://github.com/Meloong-Git/PCL)
+- **社区版**: [PCL Community Edition](https://github.com/PCL-Community/PCL2-CE)
+- **原作者赞助链接**: 请在软件关于页面查看
+
+### 本版本信息
+- **版本名称**: PCL WeihengMC Edition
+- **修改者**: WeihengMC
+- **修改内容**: 基于社区版进行个人定制修改
+
+————————————
+
 说人话的备注：
 
 因为没有法律专业人士检查，所以这不敢作为正式的法律协议，如果有专业人士愿意帮忙改一改我也很乐意……
-这些规则主要是为了阻止恶意的使用和 “山寨版” 的出现，常规、善意的使用都没啥问题的，放心吧！
+这些规则主要是为了阻止恶意的使用和 "山寨版" 的出现，常规、善意的使用都没啥问题的，放心吧！
 
 如果你只是参考了一小段代码，署个名就行啦，不用担心。
 如果对具体细节有疑问，欢迎在 https://github.com/Meloong-Git/PCL/discussions/new?category=%E6%8F%90%E9%97%AE 发帖询问！

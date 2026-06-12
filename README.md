@@ -1,70 +1,52 @@
-**简体中文** | [English](README-EN.md) | [繁體中文](README-ZH_TW.md)
+**简体中文**
 
 <div align="center">
 
 <img src="Plain Craft Launcher 2/Images/icon.ico" alt="Logo" width="80" height="80">
 
-# PCL Community Edition
+# PCL WeihengMC Edition
 
-[![Stars](https://img.shields.io/github/stars/PCL-Community/PCL2-CE?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=stars&labelColor=444444&color=eac54f)](https://github.com/PCL-Community/PCL2-CE/)
-![GitHub Release](https://img.shields.io/github/v/release/PCL-Community/PCL2-CE?label=release&logo=github)
-[![Issues](https://img.shields.io/github/issues/PCL-Community/PCL2-CE?style=flat&label=issues&labelColor=444444&color=1F883D&logo=github)](https://github.com/PCL-Community/PCL2-CE/issues)
-[![Pull requests](https://img.shields.io/github/issues-pr/PCL-Community/PCL2-CE?style=flat&label=pull%20requests&labelColor=444444&color=1F883D&logo=github)](https://github.com/PCL-Community/PCL2-CE/pulls)
-![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/PCL-Community/PCL2-CE/build-test.yml)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/PCL-Community/PCL2-CE/total)
-[![哔哩哔哩](https://img.shields.io/badge/动态-bilibili-00A4DB?style=flat&labelColor=444444&logo=bilibili)](https://space.bilibili.com/3546847192811755/dynamic) <br />
+**第三方基于 PCL Community Edition 独立进行二次创作的产物**
 
-[社区版下载](https://github.com/PCL-Community/PCL2-CE/releases/latest) |
+[原项目 PCL Community Edition](https://github.com/PCL-Community/PCL2-CE) |
 [上游存储库](https://github.com/Meloong-Git/PCL) |
-[帮助文档库](https://github.com/PCL-Community/PCL2CEHelp)
-
-[提交问题](https://github.com/PCL-Community/PCL2-CE/issues/new/choose) |
-[贡献指南](https://github.com/PCL-Community/PCL2-CE/wiki/开发指南)
+[原作者: 龙腾猫跃](https://github.com/Meloong-Git)
 
 </div>
 
-PCL CE 是基于 PCL 开源代码二次开发的社区版本，包括了主线暂未制作的功能和改进！
+PCL WeihengMC Edition 是基于 PCL Community Edition 二次开发的个人定制版本。
 
-社区版的版本号与主线并非严格对应关系，也请不要向官方仓库反馈社区版问题。
+## 📋 版本说明
 
-欢迎大家来用用看！
+本项目为第三方基于 [PCL Community Edition](https://github.com/PCL-Community/PCL2-CE) 进行二次创作的产物。
 
-**开发群:** [599620549](https://qm.qq.com/q/PNQA4Md8wc)[✦](https://t.me/+78XW2bUOvKJjMTZl) | **用户 1 群:** [1028074835](https://qm.qq.com/q/qrMGJo8BQQ) | **用户 2 群:** [1070029541](https://qm.qq.com/q/lBywbDMWhG)
+- **原作者**: 龙腾猫跃
+- **社区版维护**: PCL Community
+- **本版本修改者**: WeihengMC
 
 ## 💻 支持平台
 
 | 操作系统 | 支持情况 | 环境要求 |
 |---|---|---|
 | Windows 10 1809 (17763) 或更高 | ✅ 完整支持 | [.NET 8 Desktop Runtime](https://get.dot.net/8) |
-| Windows 8 - Windows 10 1809 (17763) 或更低 | ⚠️ 理论能跑，酌情提供社区支持 | [.NET 8 Desktop Runtime](https://get.dot.net/8) |
+| Windows 8 - Windows 10 1809 (17763) 或更低 | ⚠️ 理论能跑，酌情提供支持 | [.NET 8 Desktop Runtime](https://get.dot.net/8) |
 | Windows 7 或更低版本 | ❌ 不支持 | / |
-| macOS / Linux / 其他操作系统 | ⚠️ 仅跨平台开发支持（交叉编译） | [.NET 10 SDK](https://get.dot.net/10) |
-
-**✅ 完整支持**：尽可能提供一切相关支持，但必须确保启动器为最新版本。
-
-**⚠️ 理论能跑，酌情提供社区支持**：PCL CE 应该可以在这些平台上运行，但不保证功能完全可用。你可能需要升级到完整支持的系统版本以获得进一步社区技术支持。
-
-**❌ 不支持**：PCL CE 在这些平台的可用性较低，甚至压根打不开。请升级操作系统以使用 PCL CE。
-
-**⚠️ 仅跨平台开发支持（交叉编译）**：PCL CE 的源代码可以在 macOS 与 Linux 平台编译，但无法直接运行。作为开发者，你可以在这些平台上进行开发，然后将编译产物转移到 Windows 系统测试。
-
-**注**：    
-社区仅对最新版本的启动器提供支持。    
-取决于部分问题的特殊性（如系统不完整），有时你仍然必须升级操作系统以继续获得支持。    
-PCL CE 始终建议使用最新版本的操作系统以获得最佳体验。    
-你仍然可以尝试在不受支持的系统上使用 PCL CE，但可能会遇到很多额外问题。
 
 ## 🔒 许可证
 
-- `Plain Craft Launcher 2/` 使用 [自定义许可证](https://github.com/PCL-Community/PCL2-CE/blob/dev/Plain%20Craft%20Launcher%202/LICENCE)
-- `其余所有目录` 使用 [Apache License 2.0](https://github.com/PCL-Community/PCL2-CE/blob/dev/LICENSE)
+- `Plain Craft Launcher 2/` 使用 [自定义许可证](./Plain%20Craft%20Launcher%202/LICENCE)
+- `其余所有目录` 使用 [Apache License 2.0](./LICENSE)
 
-## 🌟 统计数据
-![Alt](https://repobeats.axiom.co/api/embed/7780da7a2612e74751bdf872f507efe2ea132b3a.svg "Repobeats analytics image")
+## 🙏 致谢
 
-[![Star History Chart](https://api.star-history.com/svg?repos=PCL-Community/PCL2-CE&type=Date)](https://www.star-history.com/#PCL-Community/PCL2-CE&Date)
+- **龙腾猫跃** - PCL 原作者
+- **PCL Community** - 社区版维护团队
+- 所有贡献者
 
-**此页浏览量**（总计 / 今日）：[![Hits](https://hits.zkitefly.eu.org/?tag=https://github.com/PCL-Community/PCL2-CE)](https://hits.zkitefly.eu.org/?tag=https://github.com/PCL-Community/PCL2-CE&web=true)
-## ❤️ 贡献者
+## ⚠️ 免责声明
 
-[![](https://contrib.rocks/image?repo=PCL-Community/PCL2-CE)](https://github.com/PCL-Community/PCL2-CE/graphs/contributors)
+本软件按"原样"提供，不提供任何明示或暗示的保证。使用本软件的风险由用户自行承担。
+
+---
+
+**特别说明**: 本项目遵守原 PCL 许可证要求，明确表示本内容是第三方基于 PCL 独立进行二次创作的产物。
